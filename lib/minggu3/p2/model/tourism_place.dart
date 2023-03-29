@@ -1,4 +1,4 @@
-class TourismPlace {
+class Tourismplace {
   String name;
   String location;
   String imageAsset;
@@ -6,7 +6,7 @@ class TourismPlace {
   String phonecode;
   List gallery;
 
-  TourismPlace({
+  Tourismplace({
    required this.name,
    required this.location,
    required this.imageAsset,
@@ -18,7 +18,7 @@ class TourismPlace {
 }
 
 var tourismPlaceList = [
-  TourismPlace(
+  Tourismplace(
     name: 'Wisata Pantai Kedung Tumpang',
     location: 'Alamat: M2W6+M46, Area Perkebunan Dan P, Pucanglaban, Kec. Pucanglaban, Kabupaten Tulungagung, Jawa Timur 66284',
     imageAsset: 'assets/images/pantai1.jpg',
@@ -31,7 +31,7 @@ var tourismPlaceList = [
       'assets/images/pantai14.jpg',
     ]
   ),
-  TourismPlace(
+  Tourismplace(
     name: 'Wisata Pantai Pacar',
     location: 'Alamat: Area Perkebunan Dan P, Pucanglaban, Kec. Pucanglaban, Kabupaten Tulungagung, Jawa Timur 66284',
     imageAsset: 'assets/images/pantai21.jpg',
@@ -44,7 +44,7 @@ var tourismPlaceList = [
         'assets/images/pantai24.jpg',
       ]
   ),
-  TourismPlace(
+  Tourismplace(
     name: 'Wisata Pantai Lumbung',
     location: 'Alamat: Area Pegununungan perhutani, Jengglungharjo, Kec. Tanggunggunung, Kabupaten Tulungagung, Jawa Timur 66283',
     imageAsset: 'assets/images/pantai31.jpg',
@@ -57,7 +57,7 @@ var tourismPlaceList = [
         'assets/images/pantai3.jpg',
       ]
   ),
-  TourismPlace(
+  Tourismplace(
     name: 'Wisata Pantai Sanggar',
     location: 'Alamat: Area Pegunungan, Jengglungharjo, Kec. Tanggunggunung, Kabupaten Tulungagung, Jawa Timur 66283',
     imageAsset: 'assets/images/pantai4.jpg',
@@ -70,7 +70,7 @@ var tourismPlaceList = [
         'assets/images/pantai44.jpg',
       ]
   ),
-  TourismPlace(
+  Tourismplace(
     name: 'Wisata Pantai Dlodo',
     location: 'Alamat: Dusun Dlodo, Desa Panggung Kalak Kecamatan Pucanglaban, Kabupaten Tulungagung',
     imageAsset: 'assets/images/pantai5.jpg',

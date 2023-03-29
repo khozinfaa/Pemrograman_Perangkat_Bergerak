@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutterproject/percobaann1.dart';
-/*import 'package:flutterproject/latihann.dart';
-import 'package:flutterproject/tugass.dart';*/
+import 'package:flutterproject/minggu4/p1/main_screen.dart';
+import 'package:flutterproject/minggu4/p2/percobaan2.dart';
+import 'package:flutterproject/minggu4/t/tugas.dart';
+// import 'package:flutterproject/minggu3/p2/menu1.dart';
 
-class Menu1 extends StatelessWidget {
-  const Menu1({super.key});
+class Menu4 extends StatelessWidget {
+  const Menu4({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -38,22 +39,10 @@ class Menu1 extends StatelessWidget {
                 onPressed: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => const Percobaann1()),
+                    MaterialPageRoute(builder: (context) => const MainScreen()),
                   );
                 },
                 child: const Text('Percobaan 1'),
-              ),
-            ),
-            /*Container(
-              margin: const EdgeInsets.only(bottom: 20.0, top: 20.0),
-              child: ElevatedButton(
-                onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => const Latihann()),
-                  );
-                },
-                child: const Text('Latihan'),
               ),
             ),
             Container(
@@ -62,12 +51,24 @@ class Menu1 extends StatelessWidget {
                 onPressed: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => const Tugass()),
+                    MaterialPageRoute(builder: (context) => Percobaan2()), //const baru dihapus
+                  );
+                },
+                child: const Text('Percobaan 2'),
+              ),
+            ),
+            Container(
+              margin: const EdgeInsets.only(bottom: 20.0, top: 20.0),
+              child: ElevatedButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => Tugas()),
                   );
                 },
                 child: const Text('Tugas'),
               ),
-            ),*/
+            ),
           ],
         ),
       ),

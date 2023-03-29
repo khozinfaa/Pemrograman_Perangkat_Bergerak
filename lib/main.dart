@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutterproject/menu.dart';
-import 'package:flutterproject/menu1.dart';
+import 'package:flutterproject/minggu1/menu.dart';
+import 'package:flutterproject/minggu2/menu1.dart';
+import 'package:flutterproject/minggu4/menu4.dart';
+import 'package:flutterproject/minggu3/m3.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +15,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Pemrograman Perangkat Bergerak',
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -26,7 +28,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Flutter Layout'),
+      home: const MyHomePage(title: 'Pemrograman  Perangkat Bergerak '),
     );
   }
 }
@@ -63,14 +65,14 @@ class _MyHomePageState extends State<MyHomePage> {
             Container(
               margin: const EdgeInsets.only(bottom: 20.0, top: 20.0),
               child: ElevatedButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => const Menu()),
-                );
-              },
-              child: const Text('part 1'),
-            ),
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => const Menu()),
+                  );
+                },
+                child: const Text('Minggu 1'),
+              ),
             ),
             Container(
               margin: const EdgeInsets.only(bottom: 20.0, top: 20.0),
@@ -81,7 +83,31 @@ class _MyHomePageState extends State<MyHomePage> {
                     MaterialPageRoute(builder: (context) => const Menu1()),
                   );
                 },
-                child: const Text('Part 2'),
+                child: const Text('Minggu 2'),
+              ),
+            ),
+            Container(
+              margin: const EdgeInsets.only(bottom: 20.0, top: 20.0),
+              child: ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const M3()),
+                );
+              },
+              child: const Text('Minggu 3'),
+            ),
+            ),
+            Container(
+              margin: const EdgeInsets.only(bottom: 20.0, top: 20.0),
+              child: ElevatedButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => const Menu4()),
+                  );
+                },
+                child: const Text('Minggu 4'),
               ),
             ),
           ],

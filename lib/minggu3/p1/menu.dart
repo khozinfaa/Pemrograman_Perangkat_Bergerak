@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutterproject/percobaan1.dart';
-import 'package:flutterproject/percobaan2.dart';
-import 'package:flutterproject/percobaan3.dart';
-import 'package:flutterproject/percobaan4.dart';
-import 'package:flutterproject/percobaan5.dart';
-import 'package:flutterproject/latihan.dart';
-import 'package:flutterproject/tugas.dart';
+import 'package:flutterproject/minggu3/p1/percobaan1.dart';
+import 'package:flutterproject/minggu3/p1/percobaan2.dart';
+import 'package:flutterproject/minggu3/p1/percobaan3.dart';
+import 'package:flutterproject/minggu3/p1/percobaan4.dart';
+import 'package:flutterproject/minggu3/p1/percobaan5.dart';
+import 'package:flutterproject/minggu3/p1/latihan.dart';
+import 'package:flutterproject/minggu3/p1/tugas.dart';
 
 class Menu extends StatelessWidget {
   const Menu({super.key});

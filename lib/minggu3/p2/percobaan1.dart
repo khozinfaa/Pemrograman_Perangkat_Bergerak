@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutterproject/model/tourism_place.dart';
-import 'package:flutterproject/detail_screen.dart';
+import 'package:flutterproject/minggu3/p2/model/tourism_place.dart';
+import 'package:flutterproject/minggu3/p2/detail_screen.dart';
 
 class Percobaann1 extends StatelessWidget {
   const Percobaann1({Key? key}) : super(key: key);
@@ -13,7 +13,7 @@ class Percobaann1 extends StatelessWidget {
       ),
       body: ListView.builder(
           itemBuilder: (context, index){
-            final TourismPlace place = tourismPlaceList[index];
+            final Tourismplace place = tourismPlaceList[index];
             return InkWell(
               onTap: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context){
@@ -29,7 +29,7 @@ class Percobaann1 extends StatelessWidget {
   }
 
 
-  Widget listItem(TourismPlace place){
+  Widget listItem(Tourismplace place){
     return Card(
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
